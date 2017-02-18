@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "35bb7c077619f999cf6d"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "79778f4bba802e1b0730"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -8899,9 +8899,6 @@
 
 		wrap.addEventListener('touchmove', function (e) {
 			secY = e.targetTouches[0].pageY;
-
-			console.log('---------------');
-			console.log(this);
 		}, false);
 
 		wrap.addEventListener('touchend', function (e) {
@@ -8910,16 +8907,8 @@
 
 			var chaZhi = firstY - secY;
 
-			console.log('>>>>>>>>>>>>');
-			console.log(chaZhi);
-			console.log('>>>>>>>>>>>>');
-			console.log(firstY);
-			console.log('>>>>>>>>>>>>');
-			console.log(secY);
-			console.log(chaZhi > 0);
-
 			if (chaZhi < 0) {
-				console.log('move: down !!!  ');
+
 				if (number == '0') {
 					return;
 				} else {
@@ -8943,7 +8932,6 @@
 					});
 				}
 			} else if (chaZhi > 0) {
-				console.log('move: up!!!');
 
 				if (number == '3') {
 					return;
