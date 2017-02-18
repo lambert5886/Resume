@@ -8,7 +8,7 @@ var config = {
 		output: {
 			path: path.resolve(__dirname,'./app/build'),
 			filename: 'bundle.js',
-			publicPath: './app/build/'
+			publicPath: '/static/'
 		},
 		plugins: [
    			 new webpack.HotModuleReplacementPlugin()

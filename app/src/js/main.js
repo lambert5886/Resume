@@ -6,12 +6,13 @@ const app = function (){
 		const wrap = document.getElementById('wrap');
 
 		const dEle = document.documentElement;
-		const width = dEle.getBoundingClientRect().width;
+		const width = window.innerWidth;
 		dEle.style.fontSize = width/15 + 'px';
 		
-		const winWidth = window.screen.width/100;
-		const winHeight = window.screen.height/(width/15);
+		const winWidth = window.innerWidth/100;
+		const winHeight = window.innerHeight/(width/15);
 
+	
 		wrap.style.height = winHeight + 'rem';
 
 		let firstY = null;
