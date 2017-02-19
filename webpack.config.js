@@ -2,13 +2,13 @@
 var path = require('path');
 var webpack = require('webpack');
 var config = {
-		entry: ['webpack-dev-server/client?http://localhost:8080',
+		entry: ['webpack-dev-server/client?http://192.168.0.5:8080',
     			'webpack/hot/dev-server',
     			path.resolve(__dirname,'./app/index.js')],
 		output: {
-			path: path.resolve(__dirname,'./app/build'),
+			path: path.resolve(__dirname,'./build'),
 			filename: 'bundle.js',
-			publicPath: '/static/'
+			publicPath: 'http://192.168.0.5/build/'
 		},
 		plugins: [
    			 new webpack.HotModuleReplacementPlugin()
@@ -37,10 +37,12 @@ var config = {
 			}]
 		},
 		devServer: {
-			contentBase: path.join(__dirname,'./app/build'),
+			hot:true,
+			inline:true,
 			compress: true
 		}
 };
-
+			
+			console.log(path.join(__dirname,'./build'))
 	
 	module.exports = config;

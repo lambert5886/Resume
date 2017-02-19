@@ -5,15 +5,24 @@
 const app = function (){
 		const wrap = document.getElementById('wrap');
 
-		const dEle = document.documentElement;
-		const width = window.innerWidth;
-		dEle.style.fontSize = width/15 + 'px';
 		
-		const winWidth = window.innerWidth/100;
-		const winHeight = window.innerHeight/(width/15);
 
+		function reSize(){
+			const dEle = document.documentElement;
+			const width = window.innerWidth;
+			const winWidth = window.innerWidth/100;
+			const winHeight = window.innerHeight/(width/15);
+			dEle.style.fontSize = width/15 + 'px';
+		
+			wrap.style.height = winHeight + 'rem';
+		
+		};
+
+		reSize();
 	
-		wrap.style.height = winHeight + 'rem';
+		window.onresize = function(){
+			reSize();
+		}
 
 		let firstY = null;
 		let secY = null;
