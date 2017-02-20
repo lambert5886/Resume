@@ -2,13 +2,13 @@
 var path = require('path');
 var webpack = require('webpack');
 var config = {
-		entry: ['webpack-dev-server/client?http://192.168.0.5:8080',
+		entry: ['webpack-dev-server/client?http://localhost:8080',
     			'webpack/hot/dev-server',
     			path.resolve(__dirname,'./app/index.js')],
 		output: {
 			path: path.resolve(__dirname,'./build'),
-			filename: 'bundle.js',
-			publicPath: 'http://192.168.0.5/build/'
+			filename: 'bundle.js'
+			
 		},
 		plugins: [
    			 new webpack.HotModuleReplacementPlugin()
@@ -21,12 +21,12 @@ var config = {
 			},{
 				test: /\.css$/,
 				exclude: /node_modules/,
-      			loader: 'style-loader!css-loader'
+      			loader: 'style-loader!css-loader!autoprefixer-loader'
 					  
 			},{
 				test: /\.less$/,
 				exclude: /node_modules/,
-				loader: 'style-loader!css-loader!less-loader'					  
+				loader: 'style-loader!css-loader!autoprefixer-loader!less-loader'					  
 			},{
 				test: /\.(png!jpg)$/,
 				exclude: /node_modules/,
@@ -37,6 +37,7 @@ var config = {
 			}]
 		},
 		devServer: {
+			contentBase: './build',
 			hot:true,
 			inline:true,
 			compress: true

@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d9d42eea2c30bba2e031"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2e03fa2ea4573a562cad"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http://192.168.0.5/build/";
+/******/ 	__webpack_require__.p = "";
 
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -721,7 +721,7 @@
 		}
 	}
 
-	/* WEBPACK VAR INJECTION */}.call(exports, "?http://192.168.0.5:8080"))
+	/* WEBPACK VAR INJECTION */}.call(exports, "?http://localhost:8080"))
 
 /***/ },
 /* 2 */
@@ -8519,7 +8519,7 @@
 
 
 	// module
-	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n}\n@font-face {\n  font-family: 'Channel_Slanted2';\n  src: url(" + __webpack_require__(82) + ");\n}\nbody {\n  height: 100%;\n}\n#wrap {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  overflow: hidden;\n  /**\n\tanimate\n**/\n}\n#wrap section {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  background: url(" + __webpack_require__(83) + ") no-repeat;\n  background-size: 100% 100%;\n  display: none;\n}\n@keyframes shadow-animate {\n  10% {\n    text-shadow: 0px 0px 2px white;\n  }\n  50% {\n    text-shadow: 0px 0px 5px white;\n  }\n  90% {\n    text-shadow: 0px 0px 8px white;\n  }\n}\n@keyframes -webkit-shadow-animate {\n  10% {\n    text-shadow: 0px 0px 2px white;\n  }\n  50% {\n    text-shadow: 0px 0px 5px white;\n  }\n  90% {\n    text-shadow: 0px 0px 8px white;\n  }\n}\n@keyframes rotatingWise {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n@keyframes -webkit-rotatingWise {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n#wrap #page01 {\n  display: block;\n}\n#wrap #page01 .innerWrap {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  align-items: center;\n  justify-content: center;\n}\n#wrap #page01 .innerWrap p {\n  font-family: \"Channel_Slanted2\";\n  text-align: center;\n  font-size: 1.2rem;\n  animation: shadow-animate 3s linear infinite alternate;\n  -webkit-animation: -webkit-shadow-animate 3s linear infinite alternate;\n}\n#wrap #page01 .innerWrap p a {\n  text-decoration: none;\n  color: #0a4580;\n}\n#wrap #page02 {\n  display: none;\n}\n#wrap #page02 div {\n  width: 100%;\n  height: 100%;\n  font-family: 'microsoft YaHei';\n  color: white;\n}\n#wrap #page02 div p {\n  text-align: center;\n  line-height: 1.25rem;\n  padding: 0 1rem;\n  font-size: .875rem;\n}\n#wrap #page02 div div.title {\n  width: 4rem;\n  height: 4rem;\n  margin: auto;\n  position: relative;\n  top: 2rem;\n}\n#wrap #page02 div div.title p:nth-child(1) {\n  font-size: 0.95rem;\n  width: 2rem;\n  position: absolute;\n  top: 0.85rem;\n}\n#wrap #page02 div div.title p.rotate {\n  background: url(" + __webpack_require__(84) + ") no-repeat;\n  width: 2rem;\n  height: 4rem;\n  background-size: 100% 100%;\n  position: absolute;\n  animation: rotatingWise 2s linear 0s infinite both;\n  -webkit-animation: -webkit-rotatingWise 2s linear 0s infinite both;\n}\n#wrap #page02 div ul.main {\n  width: 100%;\n  position: relative;\n  top: 4rem;\n  font-size: 0.65rem;\n}\n#wrap #page02 div ul.main li {\n  width: 80%;\n  margin: auto;\n  list-style-type: none;\n  background: white;\n  color: white;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.3);\n  margin-bottom: 1rem;\n  height: 2rem;\n  line-height: 2rem;\n  border-radius: 1rem;\n  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.51);\n}\n#wrap #page03 {\n  display: none;\n}\n#wrap #page03 div {\n  width: 100%;\n  height: 100%;\n  font-family: 'microsoft YaHei';\n}\n#wrap #page03 div div.title {\n  width: 4rem;\n  height: 4rem;\n  color: white;\n  margin: auto;\n  text-align: center;\n  position: relative;\n  top: 2rem;\n}\n#wrap #page03 div div.title p:nth-child(1) {\n  width: 2rem;\n  position: relative;\n  margin: auto;\n  top: 0.8rem;\n}\n#wrap #page03 div div.title p.rotate {\n  background: url(" + __webpack_require__(84) + ") no-repeat;\n  width: 4rem;\n  height: 4rem;\n  background-size: 100% 100%;\n  position: absolute;\n  top: 0rem;\n  animation: rotatingWise 2s linear 0s infinite both;\n  -webkit-animation: -webkit-rotatingWise 2s linear 0s infinite both;\n}\n#wrap #page03 div ul {\n  padding: 0 1.25rem;\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  position: relative;\n  top: 3rem;\n  color: white;\n}\n#wrap #page03 div ul li {\n  flex-grow: 1;\n  list-style: none;\n  border: 1px solid white;\n  margin-right: .3125rem;\n  border-bottom-left-radius: .3125rem;\n  border-bottom-right-radius: .3125rem;\n  background: rgba(255, 255, 255, 0.3);\n  box-shadow: 2px 3px 8px black;\n}\n#wrap #page03 div ul li p {\n  padding: 0;\n  text-align: center;\n  line-height: 1.25rem;\n  font-size: .625rem;\n}\n#wrap #page03 div ul li p.o1 {\n  font-size: 1.25rem;\n  padding-bottom: .9375rem;\n  background: white;\n  line-height: 2rem;\n  height: 1.25rem;\n  background: rgba(0, 0, 0, 0.5);\n}\n#wrap #page03 div ul li:nth-child(4) {\n  flex-grow: 1;\n  margin-top: .625rem;\n}\n#wrap #page04 {\n  display: none;\n  overflow: hidden;\n}\n#wrap #page04 div {\n  font-family: \"microsoft YaHei\";\n  width: 100%;\n  height: 100%;\n}\n#wrap #page04 div div.title {\n  width: 4rem;\n  height: 4rem;\n  color: white;\n  margin: auto;\n  text-align: center;\n  position: relative;\n  top: 2rem;\n}\n#wrap #page04 div div.title p:nth-child(1) {\n  width: 2rem;\n  position: relative;\n  margin: auto;\n  top: 0.8rem;\n}\n#wrap #page04 div div.title p.rotate {\n  background: url(" + __webpack_require__(84) + ") no-repeat;\n  width: 4rem;\n  height: 4rem;\n  background-size: 100% 100%;\n  position: absolute;\n  top: 0rem;\n  animation: rotatingWise 2s linear 0s infinite both;\n  -webkit-animation: -webkit-rotatingWise 2s linear 0s infinite both;\n}\n#wrap #page04 div ul.project {\n  display: flex;\n  flex-direction: column;\n  height: 75%;\n  width: 100%;\n  padding-top: 2rem;\n  color: white;\n}\n#wrap #page04 div ul.project li {\n  padding: .5rem;\n  background: rgba(0, 0, 0, 0.5);\n  border-radius: 15px;\n  margin-bottom: 0.5rem;\n  width: 80%;\n  height: auto;\n  box-shadow: 1px 1px 6px rgba(60, 60, 60, 0.82);\n  margin: auto;\n  list-style-type: none;\n  justify-content: space-around;\n}\n#wrap #page04 div ul.project li p {\n  font-size: .575rem;\n  word-wrap: break-word;\n  padding: 0 1.25rem;\n}\n#wrap #page04 div ul.project li p a {\n  text-decoration: none;\n  color: white;\n}\n", ""]);
+	exports.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n}\n@font-face {\n  font-family: 'Channel_Slanted2';\n  src: url(" + __webpack_require__(82) + ");\n}\nbody {\n  height: 100%;\n}\n#wrap {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  overflow: hidden;\n  /**\n\tanimate\n**/\n}\n#wrap section {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  background: url(" + __webpack_require__(83) + ") no-repeat;\n  background-size: 100% 100%;\n  display: none;\n}\n@-webkit-keyframes shadow-animate {\n  10% {\n    text-shadow: 0px 0px 2px white;\n  }\n  50% {\n    text-shadow: 0px 0px 5px white;\n  }\n  90% {\n    text-shadow: 0px 0px 8px white;\n  }\n}\n@keyframes shadow-animate {\n  10% {\n    text-shadow: 0px 0px 2px white;\n  }\n  50% {\n    text-shadow: 0px 0px 5px white;\n  }\n  90% {\n    text-shadow: 0px 0px 8px white;\n  }\n}\n@-webkit-keyframes rotatingWise {\n  0% {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(-360deg);\n            transform: rotate(-360deg);\n  }\n}\n@keyframes rotatingWise {\n  0% {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(-360deg);\n            transform: rotate(-360deg);\n  }\n}\n@-webkit-keyframes -webkit-rotatingWise {\n  0% {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(-360deg);\n            transform: rotate(-360deg);\n  }\n}\n@keyframes -webkit-rotatingWise {\n  0% {\n    -webkit-transform: rotate(0deg);\n            transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(-360deg);\n            transform: rotate(-360deg);\n  }\n}\n#wrap #page01 {\n  display: block;\n}\n#wrap #page01 .innerWrap {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  width: 100%;\n  height: 100%;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n}\n#wrap #page01 .innerWrap p {\n  font-family: \"Channel_Slanted2\";\n  text-align: center;\n  font-size: 1.2rem;\n  -webkit-animation: shadow-animate 3s linear infinite alternate;\n          animation: shadow-animate 3s linear infinite alternate;\n}\n#wrap #page01 .innerWrap p a {\n  text-decoration: none;\n  color: #0a4580;\n}\n#wrap #page02 {\n  display: none;\n}\n#wrap #page02 div {\n  width: 100%;\n  height: 100%;\n  font-family: 'microsoft YaHei';\n  color: white;\n}\n#wrap #page02 div p {\n  text-align: center;\n  line-height: 1.25rem;\n  padding: 0 1rem;\n  font-size: .875rem;\n}\n#wrap #page02 div div.title {\n  width: 4rem;\n  height: 4rem;\n  margin: auto;\n  position: relative;\n  top: 2rem;\n}\n#wrap #page02 div div.title p:nth-child(1) {\n  font-size: 0.95rem;\n  width: 2rem;\n  position: absolute;\n  top: 0.85rem;\n}\n#wrap #page02 div div.title p.rotate {\n  background: url(" + __webpack_require__(84) + ") no-repeat;\n  width: 2rem;\n  height: 4rem;\n  background-size: 100% 100%;\n  position: absolute;\n  animation: rotatingWise 2s linear 0s infinite both;\n  -webkit-animation: -webkit-rotatingWise 2s linear 0s infinite both;\n}\n#wrap #page02 div ul.project01 {\n  width: 100%;\n  position: relative;\n  top: 4rem;\n  font-size: 0.65rem;\n}\n#wrap #page02 div ul.project01 li {\n  width: 80%;\n  margin: auto;\n  list-style-type: none;\n  background: white;\n  color: white;\n  text-align: center;\n  background-color: rgba(255, 255, 255, 0.3);\n  margin-bottom: 1rem;\n  height: 2rem;\n  line-height: 2rem;\n  border-radius: 1rem;\n  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.51);\n}\n#wrap #page02 div ul.project01 li:nth-child(1) {\n  -webkit-transform: translate(600px, 0px);\n          transform: translate(600px, 0px);\n  opacity: 0;\n}\n#wrap #page02 div ul.project01 li.show:nth-child(1) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page02 div ul.project01 li:nth-child(2) {\n  -webkit-transform: translate(500px, 0px);\n          transform: translate(500px, 0px);\n  opacity: 0;\n}\n#wrap #page02 div ul.project01 li.show:nth-child(2) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page02 div ul.project01 li:nth-child(3) {\n  -webkit-transform: translate(400px, 0px);\n          transform: translate(400px, 0px);\n  opacity: 0;\n}\n#wrap #page02 div ul.project01 li.show:nth-child(3) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page02 div ul.project01 li:nth-child(4) {\n  -webkit-transform: translate(300px, 0px);\n          transform: translate(300px, 0px);\n  opacity: 0;\n}\n#wrap #page02 div ul.project01 li.show:nth-child(4) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page02 div ul.project01 li:nth-child(5) {\n  -webkit-transform: translate(200px, 0px);\n          transform: translate(200px, 0px);\n  opacity: 0;\n}\n#wrap #page02 div ul.project01 li.show:nth-child(5) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page03 {\n  display: none;\n}\n#wrap #page03 div {\n  width: 100%;\n  height: 100%;\n  font-family: 'microsoft YaHei';\n}\n#wrap #page03 div div.title {\n  width: 4rem;\n  height: 4rem;\n  color: white;\n  margin: auto;\n  text-align: center;\n  position: relative;\n  top: 2rem;\n}\n#wrap #page03 div div.title p:nth-child(1) {\n  width: 2rem;\n  position: relative;\n  margin: auto;\n  top: 0.8rem;\n}\n#wrap #page03 div div.title p.rotate {\n  background: url(" + __webpack_require__(84) + ") no-repeat;\n  width: 4rem;\n  height: 4rem;\n  background-size: 100% 100%;\n  position: absolute;\n  top: 0rem;\n  animation: rotatingWise 2s linear 0s infinite both;\n  -webkit-animation: -webkit-rotatingWise 2s linear 0s infinite both;\n}\n#wrap #page03 div ul.project02 {\n  padding: 0 1.25rem;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  position: relative;\n  top: 3rem;\n  color: white;\n}\n#wrap #page03 div ul.project02 li {\n  -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n          flex-grow: 1;\n  list-style: none;\n  border: 1px solid white;\n  margin-right: .3125rem;\n  border-bottom-left-radius: .3125rem;\n  border-bottom-right-radius: .3125rem;\n  background: rgba(255, 255, 255, 0.3);\n  box-shadow: 2px 3px 8px black;\n  opacity: 0;\n}\n#wrap #page03 div ul.project02 li p {\n  padding: 0;\n  text-align: center;\n  line-height: 1.25rem;\n  font-size: .625rem;\n}\n#wrap #page03 div ul.project02 li p.o1 {\n  font-size: 1.25rem;\n  padding-bottom: .9375rem;\n  background: white;\n  line-height: 2rem;\n  height: 1.25rem;\n  background: rgba(0, 0, 0, 0.5);\n}\n#wrap #page03 div ul.project02 li.show:nth-child(1) {\n  opacity: 1;\n  -webkit-transition: opacity 3s ;\n  transition: opacity 3s ;\n}\n#wrap #page03 div ul.project02 li.show:nth-child(2) {\n  opacity: 1;\n  -webkit-transition: opacity 5s ;\n  transition: opacity 5s ;\n}\n#wrap #page03 div ul.project02 li.show:nth-child(3) {\n  opacity: 1;\n  -webkit-transition: opacity 7s ;\n  transition: opacity 7s ;\n}\n#wrap #page03 div ul.project02 li.show:nth-child(4) {\n  opacity: 1;\n  -webkit-transition: opacity 9s ;\n  transition: opacity 9s ;\n}\n#wrap #page03 div ul.project02 li:nth-child(4) {\n  -webkit-box-flex: 1;\n      -ms-flex-positive: 1;\n          flex-grow: 1;\n  margin-top: .625rem;\n}\n#wrap #page04 {\n  display: none;\n  overflow: hidden;\n}\n#wrap #page04 div {\n  font-family: \"microsoft YaHei\";\n  width: 100%;\n  height: 100%;\n}\n#wrap #page04 div div.title {\n  width: 4rem;\n  height: 4rem;\n  color: white;\n  margin: auto;\n  text-align: center;\n  position: relative;\n  top: 2rem;\n}\n#wrap #page04 div div.title p:nth-child(1) {\n  width: 2rem;\n  position: relative;\n  margin: auto;\n  top: 0.8rem;\n}\n#wrap #page04 div div.title p.rotate {\n  background: url(" + __webpack_require__(84) + ") no-repeat;\n  width: 4rem;\n  height: 4rem;\n  background-size: 100% 100%;\n  position: absolute;\n  top: 0rem;\n  animation: rotatingWise 2s linear 0s infinite both;\n  -webkit-animation: -webkit-rotatingWise 2s linear 0s infinite both;\n}\n#wrap #page04 div ul.project03 {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  height: 75%;\n  width: 100%;\n  padding-top: 2rem;\n  color: white;\n}\n#wrap #page04 div ul.project03 li {\n  padding: .5rem;\n  background: rgba(0, 0, 0, 0.5);\n  border-radius: 15px;\n  margin-bottom: 0.5rem;\n  width: 80%;\n  height: auto;\n  box-shadow: 1px 1px 6px rgba(60, 60, 60, 0.82);\n  margin: auto;\n  list-style-type: none;\n  -ms-flex-pack: distribute;\n      justify-content: space-around;\n}\n#wrap #page04 div ul.project03 li p {\n  font-size: .575rem;\n  word-wrap: break-word;\n  padding: 0 1.25rem;\n}\n#wrap #page04 div ul.project03 li p a {\n  text-decoration: none;\n  color: white;\n}\n#wrap #page04 div ul.project03 li:nth-child(1) {\n  -webkit-transform: translate(-300px, 0px);\n          transform: translate(-300px, 0px);\n  opacity: 0;\n}\n#wrap #page04 div ul.project03 li.show:nth-child(1) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s ;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page04 div ul.project03 li:nth-child(2) {\n  -webkit-transform: translate(-400px, 0px);\n          transform: translate(-400px, 0px);\n  opacity: 0;\n}\n#wrap #page04 div ul.project03 li.show:nth-child(2) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page04 div ul.project03 li:nth-child(3) {\n  -webkit-transform: translate(-500px, 0px);\n          transform: translate(-500px, 0px);\n  opacity: 0;\n}\n#wrap #page04 div ul.project03 li.show:nth-child(3) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page04 div ul.project03 li:nth-child(4) {\n  -webkit-transform: translate(-600px, 0px);\n          transform: translate(-600px, 0px);\n  opacity: 0;\n}\n#wrap #page04 div ul.project03 li.show:nth-child(4) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n#wrap #page04 div ul.project03 li:nth-child(5) {\n  -webkit-transform: translate(-700px, 0px);\n          transform: translate(-700px, 0px);\n  opacity: 0;\n}\n#wrap #page04 div ul.project03 li.show:nth-child(5) {\n  -webkit-transform: translate(0px, 0px);\n          transform: translate(0px, 0px);\n  opacity: 1;\n  -webkit-transition: opacity 2.5s,-webkit-transform 3s;\n  transition: opacity 2.5s,-webkit-transform 3s;\n  transition: transform 3s,opacity 2.5s;\n  transition: transform 3s,opacity 2.5s,-webkit-transform 3s;\n}\n", ""]);
 
 	// exports
 
@@ -8889,24 +8889,101 @@
 		var sectionsLen = sections.length;
 		var number = 0;
 
+		var time01 = '';
+		var time02 = '';
+		var animated = true;
 		//事件绑定
 
 		wrap.addEventListener('touchstart', function (e) {
-			firstY = e.targetTouches[0].pageY;
+			if (animated) {
+				time01 = new Date().getTime();
+				console.log(time01);
+				firstY = e.targetTouches[0].pageY;
 
-			//number = parseInt(e.target.parentNode.getAttribute('key'));	
+				//number = parseInt(e.target.parentNode.getAttribute('key'));	
 
-			for (var i = 0; i < sectionsLen; i++) {
+				for (var i = 0; i < sectionsLen; i++) {
 
-				if (document.defaultView.getComputedStyle(sections[i]).display === 'block') {
-					number = parseInt(sections[i].getAttribute('key'));
+					if (document.defaultView.getComputedStyle(sections[i]).display.trim() === 'block') {
+						number = parseInt(sections[i].getAttribute('key'));
+					}
 				}
+
+				for (var i = 0; i < sections.length; i++) {
+					sections[i].style.transform = '';
+					console.log(sections);
+				};
+			} else {
+				return;
 			}
 		}, false);
 
 		wrap.addEventListener('touchmove', function (e) {
 			secY = e.targetTouches[0].pageY;
+			time02 = new Date().getTime();
+
+			animated = false;
 		}, false);
+
+		function animates() {
+			var ul01 = document.getElementsByClassName('project01')[0]; //个人简介
+			var lis01 = ul01.querySelectorAll('li');
+			var ul02 = document.getElementsByClassName('project02')[0]; //专业技能
+			var lis02 = ul02.querySelectorAll('li');
+			var ul03 = document.getElementsByClassName('project03')[0]; //项目经验
+			var lis03 = ul03.querySelectorAll('li');
+			var num = void 0;
+			for (var i = 0; i < sectionsLen; i++) {
+
+				if (document.defaultView.getComputedStyle(sections[i]).display.trim() === 'block') {
+					num = parseInt(sections[i].getAttribute('key'));
+				}
+			}
+
+			switch (num) {
+
+				case 1:
+					console.log('++++++++++++ from animated  1++++++++');
+					for (var i = 0; i < lis01.length; i++) {
+						lis01[i].setAttribute('class', 'show');
+
+						lis03[i].setAttribute('class', '');
+					}
+
+					for (var i = 0; i < lis02.length; i++) {
+						lis02[i].setAttribute('class', '');
+					}
+
+					break;
+				case 2:
+					console.log('++++++++++++ from animated  2++++++++');
+					for (var i = 0; i < lis02.length; i++) {
+						lis02[i].setAttribute('class', 'show');
+					}
+
+					for (var i = 0; i < lis03.length; i++) {
+						lis01[i].setAttribute('class', '');
+						lis03[i].setAttribute('class', '');
+					}
+
+					break;
+				case 3:
+
+					console.log('++++++++++++ from animated  3++++++++');
+
+					for (var i = 0; i < lis03.length; i++) {
+						lis03[i].setAttribute('class', 'show');
+						lis01[i].setAttribute('class', '');
+					}
+
+					for (var i = 0; i < lis02.length; i++) {
+						lis02[i].setAttribute('class', '');
+					}
+					break;
+			}
+		}
+
+		function bindAnimate(obj, chazhi) {}
 
 		wrap.addEventListener('touchend', function (e) {
 
@@ -8914,11 +8991,24 @@
 
 			var chaZhi = firstY - secY;
 
-			if (chaZhi < 0) {
+			console.log('======  time ======');
 
+			if (time02 - time01 < 120) return;
+
+			console.log('====== number =====');
+			console.log(number);
+
+			if (chaZhi < 0) {
+				// 向下滑动
+
+
+				console.log('向下滑动!');
 				if (number == '0') {
+					number = 1;
 					return;
 				} else {
+					console.log(number);
+
 					sections[number].style.opacity = 0;
 					sections[number].style.transform = 'translate3d(0px,' + -chaZhi + 'px,0px)';
 					sections[number].style.transition = 'transform 2s,opacity 1.5s';
@@ -8931,37 +9021,49 @@
 					}, 1000);
 
 					sections[number].addEventListener('webkitTransitionEnd', function () {
+						for (var i = 0; i < sections.length; i++) {
+							sections[i].style.transform = '';
+						};
 
-						sections[number].style.transform = '';
-						this.style.display = 'none';
+						animates();
+						sections[number].style.display = 'none';
 						firstY = null;
 						secY = null;
+						animated = true;
 					});
 				}
 			} else if (chaZhi > 0) {
 
-				if (number == '3') {
+				console.log('向上滑动!');
+
+				console.log(number);
+
+				if (number == 3) {
 					return;
-				} else {
-
-					sections[number].style.opacity = 0;
-					sections[number].style.transform = 'translate3d(0px,' + -chaZhi + 'px,0px)';
-					sections[number].style.transition = 'transform 2s,opacity 1.5s';
-
-					setTimeout(function () {
-						sections[number + 1].style.display = 'block';
-						sections[number + 1].style.opacity = 1;
-						sections[number + 1].style.transition = 'opacity 1.5s';
-					}, 1000);
-
-					sections[number].addEventListener('webkitTransitionEnd', function () {
-
-						sections[number].style.transform = '';
-						this.style.display = 'none';
-						firstY = null;
-						secY = null;
-					});
 				}
+
+				sections[number].style.opacity = 0;
+				sections[number].style.transform = 'translate3d(0px,' + -chaZhi + 'px,0px)';
+				sections[number].style.transition = 'transform 2s,opacity 1.5s';
+
+				setTimeout(function () {
+					sections[number + 1].style.display = 'block';
+					sections[number + 1].style.opacity = 1;
+					sections[number + 1].style.transition = 'opacity 1.5s';
+				}, 1000);
+
+				sections[number].addEventListener('webkitTransitionEnd', function () {
+
+					for (var i = 0; i < sections.length; i++) {
+						sections[i].style.transform = '';
+					}
+
+					sections[number].style.display = 'none';
+					animates();
+					animated = true;
+					firstY = null;
+					secY = null;
+				});
 			}
 		}, false);
 	};

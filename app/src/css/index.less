@@ -16,7 +16,7 @@
 
 @font-face{
 	font-family: 'Channel_Slanted2';
-	src: url('./Channel_Slanted2.ttf')
+	src: url('./Channel_Slanted2.ttf');
 }
 
 body{
@@ -54,19 +54,7 @@ body{
 		}
 	}
 
-	@keyframes -webkit-shadow-animate{
-		10%{
-			text-shadow: 0px 0px 2px white;
-		}
 
-		50%{
-			text-shadow: 0px 0px 5px white;
-		}
-
-		90%{
-			text-shadow: 0px 0px 8px white;
-		}
-	}
 
 	
 
@@ -108,8 +96,7 @@ body{
 					color:rgb(10, 69, 128);
 				}
 				animation: shadow-animate 3s linear infinite alternate;	
-				-webkit-animation: -webkit-shadow-animate 3s linear infinite alternate;	
-	
+				
 			}
 
 		}
@@ -162,7 +149,7 @@ body{
 			}
 
 
-			ul.main{
+			ul.project01{
 				width:100%;
 				position: relative;
     			top: 4rem;
@@ -182,6 +169,57 @@ body{
     				border-radius:1rem;
     				box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.51);
     			}
+
+
+    			li:nth-child(1){
+					transform: translate(600px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(1){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
+				li:nth-child(2){
+					transform: translate(500px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(2){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
+				li:nth-child(3){
+					transform: translate(400px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(3){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
+				li:nth-child(4){
+					transform: translate(300px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(4){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
+				li:nth-child(5){
+					transform: translate(200px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(5){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
 
 			}
 			
@@ -235,7 +273,7 @@ body{
 
 			
 
-			ul{
+			ul.project02{
 				padding: 0 1.25rem; // 20px
 				display:flex;
 				flex-direction:row;
@@ -252,7 +290,7 @@ body{
 					border-bottom-right-radius: .3125rem;
 					background:rgba(255,255,255,0.3);
 					box-shadow: 2px 3px 8px black;
-
+					opacity:0;
 					p{
 						padding:0;
 						text-align: center;
@@ -271,6 +309,29 @@ body{
 						background:rgba(0,0,0,0.5);
 					}
 				}
+
+
+				li.show:nth-child(1){
+					opacity:1;
+					transition: opacity 3s ;
+				}
+
+				li.show:nth-child(2){
+					opacity:1;
+					transition: opacity 5s ;
+				}
+
+				li.show:nth-child(3){
+					opacity:1;
+					transition: opacity 7s ;
+				}
+
+				li.show:nth-child(4){
+					opacity:1;
+					transition: opacity 9s ;
+				}
+
+				
 
 				li:nth-child(4){
 					flex-grow:1;
@@ -323,7 +384,7 @@ body{
 
 				}
 			}
-			ul.project{
+			ul.project03{
 				display:flex;
 				flex-direction: column;
 				height:75%;
@@ -358,6 +419,61 @@ body{
 						padding: 0 1.25rem; // 20px
 					}
 				}
+
+
+				li:nth-child(1){
+					transform: translate(-300px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(1){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s ;
+				}
+
+
+				li:nth-child(2){
+					transform: translate(-400px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(2){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
+
+				li:nth-child(3){
+					transform: translate(-500px,0px);
+					opacity:0;
+				}
+
+				li.show:nth-child(3){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
+				li:nth-child(4){
+					transform: translate(-600px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(4){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
+				li:nth-child(5){
+					transform: translate(-700px,0px);
+					opacity:0;
+				}
+				li.show:nth-child(5){
+					transform: translate(0px,0px);
+					opacity:1;
+					transition: transform 3s,opacity 2.5s;
+				}
+
 			}
 		}
 	}
